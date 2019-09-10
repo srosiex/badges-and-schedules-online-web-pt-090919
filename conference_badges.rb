@@ -50,7 +50,7 @@ assign_rooms(attendees)
 
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def printer(attendees)
-puts 
+puts
 batch_badge_creator(attendees).first
 + assign_rooms(attendees).first
 end
