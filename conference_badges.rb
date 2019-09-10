@@ -12,4 +12,3 @@ end
 return badges
 end
 batch_badge_creator(attendees)
-
