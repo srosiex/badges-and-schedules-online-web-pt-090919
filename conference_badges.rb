@@ -48,10 +48,19 @@ assign_rooms(attendees)
 # end
 # printer(attendees)
 
-attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+# attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+# def printer(attendees)
+# puts
+# batch_badge_creator(attendees).first
+# + assign_rooms(attendees).first
+# end
+# printer(attendees)
 def printer(attendees)
-puts
-batch_badge_creator(attendees).first
-+ assign_rooms(attendees).first
+  batch_badge_creator(attendees).each do |value|
+    puts value
+  end
+  assign_rooms(attendees).each do |value|
+    puts value
+  end
 end
 printer(attendees)
