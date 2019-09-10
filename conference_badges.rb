@@ -26,6 +26,7 @@ end
 end
 assign_rooms(attendees)
 
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def printer(attendees)
   new_lines = []
   attendees.each do |name|
