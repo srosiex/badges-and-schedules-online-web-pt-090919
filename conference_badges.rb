@@ -36,3 +36,4 @@ counter += 1
 end
 puts new_lines
 end
+printer(attendees)
