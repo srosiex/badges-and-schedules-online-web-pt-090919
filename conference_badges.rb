@@ -29,7 +29,7 @@ assign_rooms(attendees)
 def printer(attendees)
   new_lines = []
   attendees.each do |name|
-new_lines << puts batch_badge_creator && assign_rooms
+new_lines <<  batch_badge_creator && assign_rooms
 end
-return new_lines
+puts new_lines
 end
