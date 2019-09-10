@@ -15,6 +15,7 @@ batch_badge_creator(attendees)
 
 batch_badge_creator(attendees)
 
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def assign_rooms(attendees)
 room_assignments = []
 counter = 1
