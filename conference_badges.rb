@@ -34,4 +34,5 @@ attendees.each do |name|
   new_lines << batch_badge_creator + assign_rooms
 counter += 1
 end
+puts new_lines
 end
