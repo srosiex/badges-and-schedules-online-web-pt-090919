@@ -29,10 +29,8 @@ assign_rooms(attendees)
 attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def printer(attendees)
 new_lines = 0
-counter = 0
 attendees.each do |name|
   new_lines << batch_badge_creator(attendees) + assign_rooms(attendees)
-counter += 1
 end
 puts new_lines
 end
