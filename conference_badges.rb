@@ -11,3 +11,4 @@ attendees.each do |name|
 end
 return badges
 end
+batch_badge_creator(attendees)
